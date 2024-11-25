@@ -9,3 +9,99 @@
 @tailwind utilities;
 
 /* Custom CSS */
+
+body {
+    color: [#EFEEED];
+}
+
+body *{
+    border-color: initial;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+    text-transform: uppercase;
+}
+
+.expandButton span {
+    transition: all 3s;
+  }
+  
+.expandButton.active span{
+    transform: rotate(45deg);
+  }
+  
+
+@layer base {
+
+    h1, h2, h3, h4  {
+        @apply my-[0.75em];
+    }
+  
+    h1 {
+        @apply text-9xl leading-tight font-serif-bold;
+    }
+    h2 {
+        @apply text-5xl leading-loose font-serif-semibold;
+    }
+    h3 {
+        @apply text-xl leading-tight font-serif-semibold;
+    }
+  
+    h4 {
+        @apply text-lg uppercase leading-tight font-serif-semibold;
+    }
+  
+    p {
+        @apply mb-[0.5em] leading-normal font-sans;
+    }
+  
+    a {
+        @apply font-sans uppercase;
+    }
+  
+  }
+
+  @layer components {
+
+    .text-gold {
+       @apply text-[#997F6A];
+    }
+
+    .bg-gold {
+        @apply bg-[#997F6A];
+    }
+
+    .border-gold {
+        @apply border border-[#997F6A];
+    }
+  
+    .bg-grey-light {
+       @apply bg-[#EFEEED];
+    }
+
+    .bg-grey-medium {
+        @apply bg-[#E0DCD6];
+    }
+
+    .bg-grey-warm {
+        @apply bg-[#C7C1B8];
+    }
+  
+    .text-dark {
+        @apply text-[#222222];
+    }
+
+    .bg-dark {
+        @apply bg-[#222222];
+    }
+
+    .border-dark {
+       @apply border border-[#222222];
+    }
+  
+  }
+
+
+
