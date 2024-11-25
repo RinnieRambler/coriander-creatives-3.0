@@ -19,7 +19,20 @@
 </head>
 
 <body>
+
+    {% include site-header.html %}
+
+    {% for block in page.blocks %}
+        <!--{{block._id}} -->
+        {% include /block/{{block._id}}.html %}
+    {% endfor %}
+
     {{content}}
+
+    {% include site-footer.html %}
+
+<script src="/main.js"></script>
+
 </body>
 
 </html>

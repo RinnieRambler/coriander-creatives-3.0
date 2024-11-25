@@ -27,9 +27,11 @@ module.exports = {
         'sans': ['Raleway','ui-sans-serif'],
       },
       colors: {
-        bluedark: '',
-        bluelight: '',
-        light: '',
+        'gold': ['#997F6A'],
+        'grey-light': ['#EFEEED'],
+        'grey-medium': ['#E0DCD6'],
+        'grey-warm': ['#C7C1B8'],
+        'dark': ['#222222'],
       },
       backgroundPosition: {
         'bottom-4': 'center bottom 1rem',
