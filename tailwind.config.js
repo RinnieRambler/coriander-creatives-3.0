@@ -5,6 +5,8 @@ module.exports = {
     './_layouts/**/*.{html,js,md}',
     './_*/*.{html,js,md}',
     './*.{html,js,md}'
+  ],
+
     theme: {
       fontSize: {
         xs: ['0.75rem', '1.2'],
