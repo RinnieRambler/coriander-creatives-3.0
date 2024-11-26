@@ -1,5 +1,10 @@
 <section>
-  <div class="bg-cover bg-center" style="background-image: url('')">
-    <h2>creativity is really fucking cool and awesome </h2>
+  <div class="bg-cover bg-center" style="background-image: url('{{block.image}}')">
+    
+    {% if block.heading %}
+
+    <h2>{{block.heading}} </h2>
+
+    {% endif %}
   </div>
 </section>
