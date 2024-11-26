@@ -33,7 +33,7 @@ module.exports = {
         'grey-light': ['#EFEEED'],
         'grey-medium': ['#E0DCD6'],
         'grey-warm': ['#C7C1B8'],
-        'dark': ['#222222'],
+        'dark': '#222222',
       },
       backgroundPosition: {
         'bottom-4': 'center bottom 1rem',
