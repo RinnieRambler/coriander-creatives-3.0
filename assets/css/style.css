@@ -494,11 +494,23 @@ a {
 .grid {
   display: grid;
 }
+.min-h-\[40vh\] {
+  min-height: 40vh;
+}
+.min-h-\[20vh\] {
+  min-height: 20vh;
+}
+.min-h-\[10vh\] {
+  min-height: 10vh;
+}
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 .grid-cols-5 {
   grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 .items-center {
   align-items: center;
@@ -518,6 +530,15 @@ a {
 }
 .p-2p {
   padding: 2%;
+}
+.p-10p {
+  padding: 10%;
+}
+.p-5p {
+  padding: 5%;
+}
+.text-center {
+  text-align: center;
 }
 .text-2xl {
   font-size: 1.5rem;
