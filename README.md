@@ -51,3 +51,4 @@ $ jekyll clean
 $ bundle install
 $ npm install
 ```
+favicon.ico not found error. Add <link rel="shortcut icon" href="#"> into head.

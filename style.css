@@ -40,7 +40,7 @@ button {
     }
   
     h1 {
-        @apply text-9xl leading-tight font-serif-bold;
+        @apply text-8xl leading-tight font-serif-bold;
     }
     h2 {
         @apply text-5xl leading-loose font-serif-semibold;

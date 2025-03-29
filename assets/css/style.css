@@ -443,7 +443,7 @@ h1, h2, h3, h4 {
 }
 h1 {
   font-family: Vidaloka, ui-serif;
-  font-size: 8rem;
+  font-size: 6rem;
   line-height: .85;
 }
 h2 {
@@ -533,14 +533,19 @@ a {
 .bg-cover {
   background-size: cover;
 }
-.p-10p {
-  padding: 10%;
-}
 .p-2p {
   padding: 2%;
 }
 .p-5p {
   padding: 5%;
+}
+.px-15p {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.py-10p {
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 .text-center {
   text-align: center;
