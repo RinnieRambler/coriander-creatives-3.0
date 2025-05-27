@@ -28,13 +28,6 @@ module.exports = {
         'serif-semibold': ['Merriweather', 'ui-serif'],
         'sans': ['Raleway','ui-sans-serif'],
       },
-      colors: {
-        'gold': ['#997F6A'],
-        'grey-light': ['#EFEEED'],
-        'grey-medium': ['#E0DCD6'],
-        'grey-warm': ['#C7C1B8'],
-        'dark': '#222222',
-      },
       backgroundPosition: {
         'bottom-4': 'center bottom 1rem',
         'top-4': 'center top 1rem',
@@ -44,6 +37,13 @@ module.exports = {
           'tight': '.85',
           'snug': '.95',
           '12': '3rem',
+        },
+        colors: {
+          'gold': ['#997F6A'],
+          'grey-light': ['#EFEEED'],
+          'grey-medium': ['#E0DCD6'],
+          'grey-warm': ['#C7C1B8'],
+          'dark': '#222222',
         },
         spacing: {
           '2p': '2%',
