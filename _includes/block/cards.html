@@ -1,10 +1,11 @@
-<section>
-  <h3>services</h3>
-  <div>
+<section class="py-10p px-15p ">
+  <h2 class="text-center">services</h2>
+  <div class="grid grid-cols-3 gap-8">
     {% for item in block.service %}
     <div>
-      <img src="{{block.service-image}}">
-      <p>{{block.description</p>
+      <img src="{{item.service-image}}">
+      <h3>{{item.subtitle}}</h3>
+      <p>{{item.description}}</p>
       <button>learn more</button>
     </div>
     {% endfor %}

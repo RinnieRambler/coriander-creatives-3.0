@@ -1,0 +1,14 @@
+<section class="">
+  <div class="p-5p text-center bg-black">
+      <h2 class="py-5 text-white ">What our <span class="text-gold italic font-semibold">clients</span> say</h2>
+      <div class="p-5p md:p-0">
+          <div class="slider text-center md:max-w-3xl mx-auto ">
+          {% for item in site.data.testimonials %}
+          <div class="flex justify-center items-center min-h-full m-4 p-[5vw]">
+               <p class="text-white">{{item.text}}</p>
+               <p>{{item.person}}.<span>{{item.company}}</span></p>
+          </div>
+          {% endfor %}
+          </div>
+      </div>
+  </div>
