@@ -24,9 +24,10 @@ module.exports = {
         '9xl': ['8rem', '1'],
       },
       fontFamily: {
+        'serif': ['DM Serif Display', 'serif'],
         'serif-bold': ['Vidaloka', 'ui-serif'],
         'serif-semibold': ['Merriweather', 'ui-serif'],
-        'sans': ['Raleway','ui-sans-serif'],
+        'sans': ['DM Sans', 'sans-serif'],
       },
       backgroundPosition: {
         'bottom-4': 'center bottom 1rem',
